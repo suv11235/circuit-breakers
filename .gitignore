@@ -59,3 +59,22 @@ results/
 *.json
 !package.json
 
+# Circuit breaker outputs
+circuit_breaker_output/
+my_circuit_breaker/
+my_cb_model/
+data/
+checkpoints/
+
+# Model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Claude Code
+.claude/
+
+# Weights & Biases
+wandb/
+
